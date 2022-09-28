@@ -8,14 +8,14 @@ import Hero from '../components/Hero'
 
 export default function Home() {
   return (
-    <div className='flex flex-col items-center dark:bg-p[red]'>
+    <div className='flex flex-col items-center'>
       <Head>
         <title>Create Next App</title>
         <meta name="description" content="Windland" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Container>
+      <Container bg='white'>
         <Header/>
       </Container>
 
